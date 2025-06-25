@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.36105.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MCP-Server", "MCP-Server", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MCP-Client", "MCP-Client", "{0BD55426-5BC1-4E39-B949-52A8DF6056E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvergineMCPServer", "MCP-Server\EvergineMCPServer\EvergineMCPServer.csproj", "{E99602BD-3E3B-F106-7DF9-095A52363AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvergineMCPServer.Editor", "MCP-Server\EvergineMCPServer.Editor\EvergineMCPServer.Editor.csproj", "{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvergineMCPServer.Windows", "MCP-Server\EvergineMCPServer.Windows\EvergineMCPServer.Windows.csproj", "{5E1CC88C-6182-363D-59F2-3AE3637D5665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleMCPClient", "MCP-Client\ConsoleMCPClient.csproj", "{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E99602BD-3E3B-F106-7DF9-095A52363AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99602BD-3E3B-F106-7DF9-095A52363AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99602BD-3E3B-F106-7DF9-095A52363AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99602BD-3E3B-F106-7DF9-095A52363AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E1CC88C-6182-363D-59F2-3AE3637D5665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1CC88C-6182-363D-59F2-3AE3637D5665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1CC88C-6182-363D-59F2-3AE3637D5665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1CC88C-6182-363D-59F2-3AE3637D5665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E99602BD-3E3B-F106-7DF9-095A52363AC3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CC6C0969-401A-3FFE-AF60-2D3CB76A9CFC} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5E1CC88C-6182-363D-59F2-3AE3637D5665} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{34BFB534-6C49-A11F-EDFA-3DD6A0B658A3} = {0BD55426-5BC1-4E39-B949-52A8DF6056E9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {042C74B6-F532-4CBE-A04A-AB32B64C1BEF}
+	EndGlobalSection
+EndGlobal

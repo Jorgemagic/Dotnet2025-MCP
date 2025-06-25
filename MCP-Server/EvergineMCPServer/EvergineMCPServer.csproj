@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateEvergineContent>True</GenerateEvergineContent>
+    <GenerateEvergineAssets>False</GenerateEvergineAssets>
+    <GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Evergine.Common" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Components" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Framework" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Mathematics" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Bullet" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.Targets" Version="2025.3.18.1522" />
+    <PackageReference Include="Evergine.CodeScenes" Version="2025.3.18.1522" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+    <PackageReference Include="ModelContextProtocol" Version="0.2.0-preview.1" />
+    <PackageReference Include="SkiaSharp" Version="3.119.0" />
+    <PackageReference Include="Evergine.ImGui" Version="2025.3.18.1522" />
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	<PackageReference Include="Evergine.Runtimes.GLB" Version="2025.3.18.1522" />
+	<PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+  </ItemGroup>
+</Project>

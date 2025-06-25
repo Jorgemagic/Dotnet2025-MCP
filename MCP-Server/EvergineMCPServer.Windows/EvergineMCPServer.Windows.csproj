@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Evergine.Common" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.Components" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.DirectX11" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.Framework" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.HLSLEverywhere" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.XAudio2" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.Forms" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.Targets" Version="2025.3.18.1522" />
+		<PackageReference Include="Evergine.Targets.Windows" Version="2025.3.18.1522" />
+		<PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\EvergineMCPServer\EvergineMCPServer.csproj" />
+	</ItemGroup>
+	<ItemGroup Condition="$(DefineConstants.Contains('EVERGINE_EDITOR'))">
+		<ProjectReference Include="..\EvergineMCPServer.Editor\EvergineMCPServer.Editor.csproj" />
+	</ItemGroup>
+</Project>
