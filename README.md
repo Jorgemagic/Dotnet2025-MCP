@@ -6,7 +6,12 @@ The demo showcases the implementation of a **Model Context Protocol (MCP) Server
 
 ---
 
-## 🔧 Projects Included
+## 🎥 Watch the Conference Recording
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube)](https://www.youtube.com/watch?v=ID_DEL_VIDEO)
+
+---
+
+## 📁 Projects Included
 
 ### 🧠 MCP Server (Evergine-based)
 
